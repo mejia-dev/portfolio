@@ -4,24 +4,28 @@ body {
 }
 
 .navBar {
+  background-color:aqua;
+  color:chocolate;
   float: left;
   margin: 1%;
-  background-color:aqua;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
 }
 
 .name {
   font-style: italic;
 }
 
-.profilePicBox {
-  float: left;
-  width: 10%;
-}
-
 .profilePicBox img {
   border-radius: 50%;
-  width: 100%;
+  width: 80%;
   height: auto;
+  display: block;
+  margin: auto;
 }
 
 .profilePicBox p {
@@ -29,6 +33,25 @@ body {
   font-style:italic;
 }
 
-.aboutMeSection {
-  float:left
+.expandSection {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .expandSection:hover {
+  background-color: #ccc;
+}
+
+.aboutMe-Section {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
 }
