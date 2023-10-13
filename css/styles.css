@@ -51,7 +51,8 @@ body {
 
 .aboutMe-Section {
   padding: 0 18px;
-  display: none;
+  max-height: 0;
   overflow: hidden;
-  background-color: #f1f1f1;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
 }

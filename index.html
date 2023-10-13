@@ -15,14 +15,15 @@
       <p class="imgCredits"> 📸: <a href="https://dellinzhang.com/" target="_blank">Dellin Zhang</a></p>
     </div>
 
-    <button type="button" class="expandSections">Background</button>
+    <button type="button" class="expandSection">Background</button>
     <div class="aboutMe-Section">
       <h2>Background</h2>
       <p>Hello!<br>I am an up-and-coming developer in the Portland metro area. I come from a background of 5 years in IT, managing the maintenance of large networks, training of technicians, and creation/documentation of processes. Programming excites me and I <em>love</em> helping individuals further themselves and their businesses through technology. I am currently enrolled in <span style="font-weight: bolder"><a href="https://epicodus.com" target="_blank">Epicodus</a></span> to help achieve this goal.<br>I'm excited to work with you!</p>
     </div>
 
+    <button type="button" class="expandSection">Skills & Interests</button>
     <div class="aboutMe-Section">
-      <h2>Fun Facts / Hobbies Interests / Skills</h2>
+      <h2>Skills & Interests</h2>
       <ul>
         <li>I have assisted in the creation & design of at least 4 different websites for small businesses.</li>
         <li>I have built fully-functioning web servers from scratch on Linux using LAMP stacks and WordPress</li>
@@ -30,7 +31,7 @@
       </ul>
     </div>
 
-
+    <button type="button" class="expandSection">Contact</button>
     <div class="aboutMe-Section">
       <h2>Contact</h2>
       <p>Let's get in touch!</p>
@@ -93,7 +94,7 @@
 
     <div class="projectSpotlight-Project">
       <h2>Resume Website</h2>
-      <p>A resume template recreated for web use by a classmate and I.</p>
+      <p>A resume template recreated for the web by a classmate and I.</p>
       <p class="gitHubLink">GitHub Link: <a href="https://github.com/daisyorozcob/resume-site">https://github.com/daisyorozcob/resume-site</a></p>
       <h3>Languages Used:</h3>
       <ol>
@@ -115,6 +116,26 @@
     </div>
 
   </div>
+
+
+  <!-- This section of code is from https://www.w3schools.com/howto/howto_js_collapsible.asp -->
+  <script>
+    var coll = document.getElementsByClassName("expandSection");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+
 </body>
 
 </html>
