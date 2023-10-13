@@ -1,11 +1,11 @@
 body {
-  background-color: black;
+  background-color: #1a1c1d;
   color: white;
 }
 
 .navBar {
-  background-color:aqua;
-  color:chocolate;
+  background-color: rgb(131, 128, 182);
+  color: rgb(205, 169, 133);
   float: left;
   margin: 1%;
   display: flex;
@@ -30,18 +30,19 @@ body {
 
 .profilePicBox p {
   text-align: center;
-  font-style:italic;
+  font-style: italic;
 }
 
 .expandSection {
-  background-color: #eee;
+  background-color: rgb(131, 128, 182);
   color: #444;
-  cursor: pointer;
-  padding: 18px;
+  cursor: help;
+  padding: 10px;
   width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
+  border: thick;
+  border-radius: 10px;
+  text-align: center;
+  outline: ridge color aqua;
   font-size: 15px;
 }
 
@@ -54,5 +55,16 @@ body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: white;
+  background-color: rgb(131, 128, 182);
+}
+
+.projectSpotlight-Wrapper {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  width: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
 }
