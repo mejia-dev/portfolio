@@ -1,5 +1,34 @@
+body {
+  background-color: black;
+  color: white;
+}
 
+.navBar {
+  float: left;
+  margin: 1%;
+  background-color:aqua;
+}
 
+.name {
+  font-style: italic;
+}
 
+.profilePicBox {
+  float: left;
+  width: 10%;
+}
 
-/* Don't forget to include box model including margin, border, padding, and floats*/
+.profilePicBox img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.profilePicBox p {
+  text-align: center;
+  font-style:italic;
+}
+
+.aboutMeSection {
+  float:left
+}
