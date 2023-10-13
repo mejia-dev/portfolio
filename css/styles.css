@@ -104,7 +104,9 @@ hr {
 }
 
 .projectSpotlight-Project {
-  background-color: green;
+  /* background-color: #70D6FF; */
+  outline: solid #7180AC;
+  color: #CDA985;
   float: left;
   width: 95%;
   margin: 1%;
@@ -118,4 +120,8 @@ hr {
   height: auto;
   display: block;
   margin: auto;
+}
+
+a {
+  color: #7180AC;
 }
