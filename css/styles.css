@@ -73,7 +73,7 @@ hr {
 }
 
 .projectSpotlight-Wrapper {
-  float:left;
+  float: left;
   background-color: #1e1e1e;
   width: 70%;
   margin: 2%;
@@ -91,14 +91,14 @@ hr {
   .projectSpotlight-Wrapper {
     flex-direction: column;
     width: 98%;
-    float:right;
+    float: right;
     margin: 2%;
   }
 
   .navBar {
     flex-direction: row;
     width: 95%;
-    float:left;
+    float: left;
     margin: 2%;
   }
 }
@@ -106,6 +106,16 @@ hr {
 .projectSpotlight-Project {
   background-color: green;
   float: left;
-  width: 50%;
+  width: 95%;
   margin: 1%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.projectSpotlight-Project img {
+  border-radius: 20px;
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
 }
