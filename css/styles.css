@@ -1,23 +1,25 @@
 body {
-  background-color: #1a1c1d;
+  background-color: #121212;
   color: white;
 }
 
 .navBar {
-  background-color: rgb(131, 128, 182);
+  background-color: #1e1e1e;
   color: rgb(205, 169, 133);
   float: left;
-  margin: 1%;
+  margin: 2%;
   display: flex;
   flex-direction: column;
   width: 20%;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 20px;
+  box-shadow: 1rem 1rem black;
 }
 
 .name {
   font-style: italic;
+  text-align: center;
 }
 
 .profilePicBox img {
@@ -34,20 +36,21 @@ body {
 }
 
 .expandSection {
-  background-color: rgb(131, 128, 182);
-  color: #444;
+  background-color: #1e1e1e;
   cursor: help;
   padding: 10px;
   width: 100%;
+  margin:auto;
   border: thick;
   border-radius: 10px;
   text-align: center;
-  outline: ridge color aqua;
-  font-size: 15px;
+  color: #CDA985;
+  font-size: 165%;
 }
 
-.active, .expandSection:hover {
-  background-color: #ccc;
+.active,
+.expandSection:hover {
+  border:thick;
 }
 
 .aboutMe-Section {
@@ -55,11 +58,10 @@ body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: rgb(131, 128, 182);
 }
 
 .projectSpotlight-Wrapper {
-  background-color: green;
+  background-color: #1e1e1e;
   display: flex;
   flex-direction: column;
   margin: 1%;
@@ -67,4 +69,5 @@ body {
   padding: 10px;
   box-sizing: border-box;
   border-radius: 20px;
+  box-shadow: 1rem 1rem black;
 }
