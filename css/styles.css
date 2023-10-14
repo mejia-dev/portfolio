@@ -88,8 +88,7 @@ body {
   }
 
   .navBar {
-    flex-direction: row;
-    /* justify-content: space-evenly; */
+    display: block;
     width: 95%;
     float: left;
     margin: 2%;
@@ -101,19 +100,22 @@ body {
     max-width: 98%;
     overflow: hidden;
     transition: max-width 0.2s ease-out;
-    float:right;
-  }
-
-
-  .profilePic {
-    display: none;
+    float:right;  
   }
 
   .name {
-    width: 30%;
+    width: 60%;
     height: auto;
-    display: block;
-    margin: auto;
+    margin: 1%;
+    float: left;
+    margin-left: 12%;
+  }
+
+  .profilePic {
+    border-radius: 50%;
+    width: 13%;
+    height: auto;
+    margin: 1%;
   }
 
   br {
