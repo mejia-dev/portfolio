@@ -23,7 +23,6 @@ This is a basic portfolio webpage for a programmer.
 ## Known Bugs
 
 * Navigation bar buttons do not work as expected when the site is loaded on a viewport smaller than 1200px. Text still gets displayed vertically instead of horizontally.
-* Navigation bar profile photo does not get displayed properly when site is loaded on a viewport smaller than 1200px.
 
 ## License
 
