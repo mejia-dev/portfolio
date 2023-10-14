@@ -89,7 +89,7 @@ body {
 
   .navBar {
     flex-direction: row;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     width: 95%;
     float: left;
     margin: 2%;
@@ -98,9 +98,10 @@ body {
   .aboutMe-Section {
     margin: 1%;
     padding: 0 18px;
-    max-width: 0;
+    max-width: 98%;
     overflow: hidden;
     transition: max-width 0.2s ease-out;
+    float:right;
   }
 
 
