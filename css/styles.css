@@ -95,18 +95,14 @@ body {
   }
 
   .aboutMe-Section {
-    margin: 1%;
-    padding: 0 18px;
     max-width: 98%;
-    overflow: hidden;
-    transition: max-width 0.2s ease-out;
-    float: left;
-    background-color: green;
+    transition: max-height 0.2s ease-out;
+    float: right;
     margin: auto;
-    display:block;
-    box-sizing:content-box;
-    margin-left:auto;
-    margin-right:auto;
+    padding: 0 18px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .name {
