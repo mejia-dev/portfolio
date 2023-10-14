@@ -12,7 +12,7 @@
 
 ## Description
 
-This is a basic portfolio webpage for a programmer.
+This is a basic portfolio webpage for a programmer. The website is responsive and can scale down to 320px width without issue.
 
 ## Setup/Installation Requirements
 
