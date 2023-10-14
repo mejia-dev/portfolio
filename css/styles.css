@@ -97,12 +97,12 @@ body {
 
   .aboutMe-Section {
     margin: 1%;
-    padding: 0 18px ;
+    padding: 0 18px;
     max-width: 0;
     overflow: hidden;
     transition: max-width 0.2s ease-out;
   }
-  
+
 
   .profilePic {
     display: none;
