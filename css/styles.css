@@ -1,6 +1,7 @@
 body {
   background-color: #121212;
   color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .navBar {
@@ -54,6 +55,7 @@ hr {
   text-align: center;
   color: #CDA985;
   font-size: 165%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .active,
@@ -87,7 +89,7 @@ hr {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .projectSpotlight-Wrapper {
     flex-direction: column;
     width: 98%;
@@ -100,6 +102,10 @@ hr {
     width: 95%;
     float: left;
     margin: 2%;
+  }
+
+  hr {
+    display: none
   }
 }
 
