@@ -129,7 +129,7 @@ body {
     margin-left: 12%;
   }
 
-  #wideViewOnly {
+  .wideViewOnly {
     display: none;
   }
 }
